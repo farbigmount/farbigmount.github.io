@@ -1,8 +1,8 @@
 avatar: https://s11.ax1x.com/2022/12/19/zqa0Et.jpg # 网站 Logo
 background: # 既是博客的背景，又是文章默认头图
-    path: https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png
+    path: https://s21.ax1x.com/2024/11/17/pARQo60.jpg
     width: 1280
-    height: 726
+    height: 427
 favicon:
   href: /favicon.ico # 网站图标
   type: image/x-icon # 图标类型，可能的值有(image/png, image/vnd.microsoft.icon, image/x-icon, image/gif)
@@ -38,30 +38,30 @@ widgets:
       enable: true
       options: 
         search: 
-            type: engine # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
-            url: https://cn.bing.com/search?q=site:nexmoe.com # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
+            type: local # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
+            url: https://cn.bing.com/search?q=site:farbigmount.github.io # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
             id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
     - name: social
       enable: true
       options: 
         social:
             哔哩哔哩:
-                - https://space.bilibili.com/20238211
+                - https://space.bilibili.com/383856136
                 - icon-bilibili
                 - rgb(231, 106, 141)
                 - rgba(231, 106, 141, .1)
             GitHub:
-                - https://github.com/nexmoe/
+                - https://github.com/farbigmount/
                 - icon-github
                 - rgb(25, 23, 23)
                 - rgba(25, 23, 23, .1)
             知乎:
-                - https://www.zhihu.com/people/nexmoe
+                - https://www.zhihu.com/people/xue-li-ke-de-py
                 - icon-zhihu
                 - rgb(30, 136, 229)
                 - rgba(30, 136, 229, .1)
             Twitter:
-                - https://twitter.com/nexmoe
+                - https://twitter.com/
                 - icon-twitter
                 - rgb(59, 151, 239)
                 - rgba(59, 151, 239, .1)
@@ -105,13 +105,13 @@ slotFooter: |
 
 # 自定义侧边栏尾部内容
 slotSidebar: |
-  <br><a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2020018486号</a>
+  <br><a target="_blank" href="https://beian.miit.gov.cn/">null</a>
   <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
-  <img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>
+  <img src="" width=""></a>
 
 # 评论框插槽
 slotComment: | 
-  请在你的配置文件中设置 slotComment
+  null slotComment
 
 slotCopyright: | 
   <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
